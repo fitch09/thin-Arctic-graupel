@@ -1,0 +1,23 @@
+Folder structure within the VAP
+
+- masc_flake_anal_vap.py
+- masc_flake_anal
+|- DataAcqConfig.py
+|- DataAnalysisConfig.py
+|- DataToStringConverter.py
+|- Enums.py
+|- Errors.py
+|- FlakeInfo.py
+|- ImageAnalysisInfo.py
+|- ImageAnalyzer.py
+|- ImageInfo.py
+|- ParticleAnalyzer.py
+|- TimeBinInfo.py
+|- TimeSeriesGenerator.py
+|- Timestamp.py
+
+All of these files should be moved from their proper locations in
+mascpy subfolders
+
+
+

@@ -1,0 +1,98 @@
+{
+	"imageAnalysisParameters" : {
+		"additionalImageCrop": {
+			"top": 		460,
+			"bottom": 	360,
+			"left": 	600,
+			"right": 	600
+		},
+        "comment_additionalImageCrop": {
+			"top": 		0,
+			"bottom": 	0,
+			"left": 	0,
+			"right": 	0
+		},
+		"backgroundThreshold01":		0.03,
+		"lineFillInMicrons": 			200,
+		"minFlakeSizeInMicrons": 		200,
+		"maxEdgeTouchLengthInMicrons": 	        500,
+		"minMaxPixelIntensity01": 		0.2,
+		"rangeIntensityThreshold01":	        0.01961,
+		"flagSaveCroppedImages":		0,
+		"flagRejectOutOfFocus": 		1,
+		"focusThreshold01": 			0.01,
+		"boundingBoxThresholdInMM": {
+			"bottomMin": 33,
+			"bottomMax": 39
+		},
+		"comment_perCamera": [
+			{
+				"comment": "33 / 1288",
+				"horizFOVPerPixelInMM": 0.025621118,
+				"cropAtCapture": {
+					"top": 		0,
+					"bottom": 	0,
+					"left": 	0,
+					"right": 	0
+				}
+			},
+			{
+				"comment": "63 / 2448",
+				"horizFOVPerPixelInMM": 0.025735294,
+				"cropAtCapture": {
+					"top": 		0,
+					"bottom": 	0,
+					"left": 	0,
+					"right": 	0
+				}
+			},
+			{
+				"comment": "33 / 1288",
+				"horizFOVPerPixelInMM": 0.025621118,
+				"cropAtCapture": {
+					"top": 		0,
+					"bottom": 	0,
+					"left": 	0,
+					"right": 	0
+				}
+			}
+		],
+		"perCamera": [
+			{
+				"comment": "75 / 2448",
+				"horizFOVPerPixelInMM": 0.030637255,
+				"cropAtCapture": {
+					"top": 		0,
+					"bottom": 	0,
+					"left": 	0,
+					"right": 	0
+				}
+			},
+			{
+				"comment": "75 / 2448",
+				"horizFOVPerPixelInMM": 0.030637255,
+				"cropAtCapture": {
+					"top": 		0,
+					"bottom": 	0,
+					"left": 	0,
+					"right": 	0
+				}
+			},
+			{
+				"comment": "75 / 2448",
+				"horizFOVPerPixelInMM": 0.030637255,
+				"cropAtCapture": {
+					"top": 		0,
+					"bottom": 	0,
+					"left": 	0,
+					"right": 	0
+				}
+			}
+		]
+	},
+	"timeBinningParameters": {
+		"binWidthInSec":			300,
+		"maxFallSpeedInMetersPS":	5,
+		"minNumParticlesPerBin":	10
+	}
+}
